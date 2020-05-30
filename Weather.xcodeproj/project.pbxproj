@@ -13,6 +13,10 @@
 		315ABA1B247E7777000F2123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315ABA19247E7777000F2123 /* Main.storyboard */; };
 		315ABA1D247E7779000F2123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315ABA1C247E7779000F2123 /* Assets.xcassets */; };
 		315ABA20247E7779000F2123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315ABA1E247E7779000F2123 /* LaunchScreen.storyboard */; };
+		319E63832481EA32007CA1E5 /* HCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E63822481EA32007CA1E5 /* HCollectionViewCell.swift */; };
+		31DFC6B82481F42F0037FEB9 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFC6B72481F42F0037FEB9 /* DailyWeather.swift */; };
+		31DFC6BA248201C20037FEB9 /* VCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFC6B9248201C20037FEB9 /* VCollectionViewCell.swift */; };
+		31DFC6BC248202090037FEB9 /* WeeklyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFC6BB248202090037FEB9 /* WeeklyWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		315ABA1C247E7779000F2123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315ABA1F247E7779000F2123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315ABA21247E7779000F2123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319E63822481EA32007CA1E5 /* HCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCollectionViewCell.swift; sourceTree = "<group>"; };
+		31DFC6B72481F42F0037FEB9 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		31DFC6B9248201C20037FEB9 /* VCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCollectionViewCell.swift; sourceTree = "<group>"; };
+		31DFC6BB248202090037FEB9 /* WeeklyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				315ABA13247E7777000F2123 /* AppDelegate.swift */,
 				315ABA15247E7777000F2123 /* SceneDelegate.swift */,
 				315ABA17247E7777000F2123 /* ViewController.swift */,
+				31DFC6B72481F42F0037FEB9 /* DailyWeather.swift */,
 				315ABA19247E7777000F2123 /* Main.storyboard */,
+				31DFC6B9248201C20037FEB9 /* VCollectionViewCell.swift */,
+				319E63822481EA32007CA1E5 /* HCollectionViewCell.swift */,
 				315ABA1C247E7779000F2123 /* Assets.xcassets */,
 				315ABA1E247E7779000F2123 /* LaunchScreen.storyboard */,
 				315ABA21247E7779000F2123 /* Info.plist */,
+				31DFC6BB248202090037FEB9 /* WeeklyWeather.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DFC6B82481F42F0037FEB9 /* DailyWeather.swift in Sources */,
+				31DFC6BA248201C20037FEB9 /* VCollectionViewCell.swift in Sources */,
 				315ABA18247E7777000F2123 /* ViewController.swift in Sources */,
 				315ABA14247E7777000F2123 /* AppDelegate.swift in Sources */,
+				31DFC6BC248202090037FEB9 /* WeeklyWeather.swift in Sources */,
 				315ABA16247E7777000F2123 /* SceneDelegate.swift in Sources */,
+				319E63832481EA32007CA1E5 /* HCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
